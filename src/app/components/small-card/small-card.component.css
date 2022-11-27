@@ -1,0 +1,28 @@
+.container__small-card > a {
+  width: 90%;
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  height: 20vh;
+}
+
+.small-card__photo {
+  min-width: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infos > .small-card__title {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.infos > .date {
+  color: grey;
+}

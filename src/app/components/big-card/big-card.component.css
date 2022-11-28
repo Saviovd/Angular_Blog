@@ -1,6 +1,5 @@
 .container__big-card {
   width: 100%;
-  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,9 +8,8 @@
 }
 
 .container__big-card > a > .big-card__photo > img {
-  height: auto;
-  width: 100%;
-  min-width: 400px;
+  width: 90%;
+  min-width: 300px;
   object-fit: contain;
 }
 

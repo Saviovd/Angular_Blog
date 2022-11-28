@@ -7,9 +7,16 @@ header {
 
 .container__articles {
   display: flex;
-  margin-top: 30px;
+  padding: 0 2%;
 }
+.articles__main{
+  width: 60%;
+}
+
 .articles__others {
+  width: 40%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
